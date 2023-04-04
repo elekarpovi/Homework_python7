@@ -11,7 +11,7 @@
 a = 'пара-ра-рам рам-пам-папам па-ра-па-да'
 data = a.split()
  
-list_1 = [sum (x in 'уеыаоэяию' for x in lin) for lin in data]
+list_1 = [sum (x in 'аеиоуыэюя' for x in lin) for lin in data]
  
 if len(set(list_1)) == 1:
     res = 'Парам пам-пам' 
